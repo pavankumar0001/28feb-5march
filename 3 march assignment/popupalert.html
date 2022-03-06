@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./popup.css">
+    <title>POPUP MESSAGE</title>
+</head>
+<body>
+    <h1>popup form</h1>
+    <p>click on the button at the bottom of this page to open login form </p>
+    <button class="open-btn" onclick="openForm()">Open Form</button>
+    <div class="form-popup" id="myform">
+        <form  class="form-container" action="#">
+              <h1>Login</h1>
+              <label for="email">enter email</label><br>
+              <input type="text" placeholder="enter email"><br>
+              <label for="pass">password</label><br>
+              <input type="password" placeholder="enter password"><br>
+              <button type="submit" class="btn">login</button><br>
+              <button   onclick="closeForm()" class="btn-close">&times;</button>
+
+        </form>
+    </div>
+
+    <script src="./popup.js"></script>
+</body>
+</html>

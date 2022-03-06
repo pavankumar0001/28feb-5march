@@ -1,0 +1,41 @@
+.open-btn{
+    background-color: #dad;
+    color:white;
+    padding:16px 20px;
+    border: none;
+    cursor:pointer;
+    position:fixed;
+    top:100px;
+    left:80px;
+    width:400px;
+
+}
+.form-popup
+{
+    display: none;
+    position:fixed;
+    top:150px;
+    left:80px;
+    border:3px solid #ababab;
+    z-index: 10;
+
+}
+.form-container{
+    width: 300px;
+    padding:10px;
+    background-color: white;;
+
+}
+.form-container input[text],
+.form-container input[password]
+{
+    width:100%;
+    padding:13px;
+    margin:5px 0 22px 0px;
+    background: #f1f1f1;
+}
+.btn-close{
+    width:100%;
+    background-color: red;
+
+}

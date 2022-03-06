@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./login.css">
+    <title>Log_In_Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="bgimage">
+           
+        </div>
+        <div class="log_in">
+           <div> <img src="./loginlogo.jpg" alt=""></div>
+           <div class="login"><span>Registration From</span></div><br>
+           <br>
+           <br>
+           <br>
+           <div>
+               <form action="#">
+                   <label>USERID</label><br>
+                   <input type="email" required pattern=".+@gmail.com" name="user_name" id="name" placeholder="enter your user id"><br><br>
+                   <label>PASSWORD</label><br>
+                   <input type="password" required   name="pass_word" id="pass-word" placeholder="enter your password"><br><br>
+                   <label>CONFIRM PASSWORD</label><br>
+                   <input type="text" required   name="re-pass_word" id="re-pass" placeholder="RE-ENTER YOUR Password"><br><br>
+                   <!-- <input type="checkbox"> -->
+                   <!-- <span>Remember Me</span>
+                   <button class="btn1">Forget password</button> <br><br><br> -->
+                   <button onclick="verifyPassword()" class="btn2">Register</a></button>
+                   <script src="./password.js"></script>
+               </form>
+           </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
